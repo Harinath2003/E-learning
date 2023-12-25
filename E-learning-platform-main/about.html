@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="images/icon/favicon.png">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>E-learn</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
+</head>
+<body>
+<!-- Navigation Bar -->
+	<header id="header">
+		<nav>
+			<div class="logo"><img src="images/icon/logo - Copy.png" alt="logo"></div>
+			<ul>
+				<li><a  href="index.html">Home</a></li>
+				<li><a  class="active" href="about.html">About</a></li>
+				<li><a href="Teachers.html">Teachers</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a   href="contect.html">Contact</a></li>
+			</ul>
+			<a class="get-started" href="login.html">Get Started</a>
+			<img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+                        
+	</header>
+ <!-- ABOUT -->
+	<div class="diffSection" id="about_section">
+		<center><p style="font-size: 50px; padding: 100px">About</p></center>
+		<div class="about-content">
+				<div class="side-image">
+					<img class="sideImage" src="images/extra/e3.jpg">
+				</div>
+				<div class="side-text">
+					
+                                    <p> <b>Our Mission</b> Our mission is to provide you with the knowledge and skills you need, to be able to craft the kinds of stories that you want to tell<br>
+                    <b>Our Dream</b>
+                    It is our compass when we're building the platform and developing new products and policies. We want to empower individuals and be a force for good in the world.
+                    <br>
+                <b>Our values</b>
+                    To give everyone the ability to be heard, seen, and share their thoughts and experiences as they happen!<br>
+                    <b>Our Goals</b>
+                    To be improved and more inspiring every single day!</p>
+				</div>
+		</div>
+	</div>
+<!-- Sliding Information -->
+	<marquee style="background: linear-gradient(to right, #FA4B37, #DF2771); margin-top: 50px;" direction="left" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="20"><div class="marqu">“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.” “Your attitude, not your aptitude, will determine your altitude.” “If you think education is expensive, try ignorance.” “The only person who is educated is the one who has learned how to learn …and change.”</div></marquee>
+
+<!-- FOOTER -->
+	<footer>
+		<div class="footer-container">
+			<div class="left-col">
+				<img src="images/icon/logo - Copy.png" style="width: 200px;">
+				<div class="logo"></div>
+				<div class="social-media">
+					<a href="https://www.facebook.com/sakethchowdary.kandru"><img src="images/icon\fb.png"></a>
+					<a href="https://www.instagram.com/sa_ke_th__/"><img src="images/icon\insta.png"></a>
+					<a href="#"><img src="images/icon\tt.png"></a>
+					<a href="https://www.youtube.com/channel/UCzU59SYQhkV-NizIK-ljCrQ"><img src="images/icon\ytube.png"></a>
+					<a href="https://www.linkedin.com/in/saketh-chowdary-222283253"><img src="images/icon\linkedin.png"></a>
+				</div><br><br>
+				<br><p><img src="images/icon/location.png"> chengalpattu<br><chennai class="603001"></chennai></p><br>
+				<p><img src="images/icon/phone.png">9014226065<br><img src="images/icon/mail.png">&nbsp; elearn2022@gmail.com</p>
+			</div>
+			<div class="right-col">
+				<h1 style="color: #fff">Our Newsletter</h1>
+				<div class="border"></div><br>
+				<p>Enter Your Email to get our News and updates.</p>
+				<form class="newsletter-form">
+					<input class="txtb" type="email" placeholder="Enter Your Email">
+					<input class="btn" type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
